@@ -25,10 +25,10 @@ outputs/ ← Charts and visualisations
 
 
 ##  How to Run
-git clone https://github.com/Hari-Shankar-11/kerala_weather_analytics
-pip install -r requirements.txt
-export OPENWEATHER_API_KEY="your_key_here"
-jupyter notebook weather_forecast.ipynb
+-git clone https://github.com/Hari-Shankar-11/kerala_weather_analytics
+-ip install -r requirements.txt
+-export OPENWEATHER_API_KEY="your_key_here"
+-jupyter notebook weather_forecast.ipynb
 
 
 |Library |Purpose |
