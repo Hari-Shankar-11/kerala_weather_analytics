@@ -13,6 +13,7 @@ Weather forecasting is critical for daily life in Kerala — a state highly depe
 
 ## 🏗️ Project Architecture
 
+```
 OpenWeatherMap API
 ↓
 src/extract.py ← Fetch live forecast data
@@ -22,14 +23,16 @@ src/transform.py ← Clean and structure data
 src/load.py ← Store in SQLite database
 ↓
 outputs/ ← Charts and visualisations
-
+```
 
 ##  How to Run
+
+```bash
 -git clone https://github.com/Hari-Shankar-11/kerala_weather_analytics
 -ip install -r requirements.txt
 -export OPENWEATHER_API_KEY="your_key_here"
 -jupyter notebook weather_forecast.ipynb
-
+```
 
 |Library |Purpose |
 
@@ -53,9 +56,11 @@ outputs/ ← Charts and visualisations
 |Temperature trend|Rising toward 31°C by early April|
 
  Machine Learning
+ ```
 Applied Linear Regression to extend temperature predictions beyond the 5-day API forecast window.
 ∙ Training data: 40 forecast points per city
 ∙ Prediction window: 14 days beyond forecast
 ∙ Limitation: Captures trend but not daily cycles
 ∙ Future improvement: SARIMA or Facebook Prophet
+```
 
