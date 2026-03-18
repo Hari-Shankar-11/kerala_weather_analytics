@@ -36,6 +36,7 @@ outputs/ ← Charts and visualisations
 
 |Library |Purpose |
 
+```
 |`requests` |Fetch data from OpenWeatherMap API |
 |`pandas` |Data manipulation and transformation|
 |`sqlite3` |Store structured data in database |
@@ -44,16 +45,17 @@ outputs/ ← Charts and visualisations
 |`scikit-learn`|Linear Regression ML model |
 |`numpy` |Numerical computations |
 |`logging` |Monitor pipeline health |
-
+```
 
 
 |Insight |Detail |
-
+```
 |Temperature range|23°C (night) to 30°C (afternoon) |
 |Humidity |52% to 87% |
 |Clear sky |Kannur 82.5% — Kozhikode 77.5% |
 |Rain probability |12.5% for both cities |
 |Temperature trend|Rising toward 31°C by early April|
+```
 
  Machine Learning
  ```
